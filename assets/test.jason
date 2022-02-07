@@ -1,0 +1,215 @@
+  {
+    "status": "ok",
+    "totalResults": 16,
+    "articles":
+    [
+      {
+        "source": {
+          "id": "rt",
+          "name": "RT"
+        },
+        "author": "RT Arabic",
+        "title": "مايكروسوفت تتخلى عن أحد أشهر تطبيقاتها للهواتف الذكية - RT Arabic",
+        "description": "تخلّت شركة مايكروسوفت عن تطبيق Cortana المخصص للهواتف والأجهزة الذكية العاملة بنظامي iOS وأندرويد.",
+        "url": "https://arabic.rt.com/it/1217792-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D8%AA%D9%86%D9%87%D9%8A-%D8%A3%D8%AD%D8%AF-%D8%A3%D8%B4%D9%87%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA%D9%87%D8%A7-%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%AA%D9%81-%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9/",
+        "urlToImage": "https://cdni.rt.com/media/pics/2021.04/original/606706b64c59b710536597ae.png",
+        "publishedAt": "2021-04-02T19:00:00Z",
+        "content": "Cortana iOS .\r\n\" Cortana Android iOS \".\r\n \" 31 2021 Cortana Cortana Microsoft To Do .\r\n \"\" .\r\n Cortana .\r\n: ixbit"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Masrawy.com"
+        },
+        "author": "مصراوي",
+        "title": "الذهب يعوض خسائره ويرتفع في مصر 15 جنيهًا في يومين - مصراوي",
+        "description": "الذهب يعوض خسائره ويرتفع في مصر 15 جنيه ا في يومين | مصراوى",
+        "url": "https://www.masrawy.com/news/news_economy/details/2021/4/2/1998074/الذهب-يعوض-خسائره-ويرتفع-في-مصر-15-جنيه-ا-في-يومين",
+        "urlToImage": "data:image/jpeg;base64,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",
+        "publishedAt": "2021-04-02T11:43:00Z",
+        "content": "- :\r\n 15 .\r\n \"\" 21 757 742 .\r\n 18 648.9 24 865.2 6056 .\r\n 13 ."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "أسعار الذهب عالميًا: هل يستطيع الذهب الاختراق؟ بواسطة Investing.com - السعودية Investing.com",
+        "description": "أسعار الذهب عالميًا: هل يستطيع الذهب الاختراق؟",
+        "url": "https://sa.investing.com/news/commodities-news/article-2134243",
+        "urlToImage": "https://i-invdn-com.akamaized.net/news/LYNXMPED180L9_L.jpg",
+        "publishedAt": "2021-04-02T10:32:00Z",
+        "content": ":Fusion Media would like to remind you that the data contained in this website is not necessarily real-time nor accurate. All CFDs (stocks, indexes, futures) and Forex prices are not provided by exch… [+689 chars]"
+      },
+      {
+        "source": {
+          "id": "rt",
+          "name": "RT"
+        },
+        "author": "RT Arabic",
+        "title": "سامسونغ تسعى لإحداث نقلة نوعية في عالم الهواتف! - RT Arabic",
+        "description": "سرّبت بعض المواقع الإلكترونية المهتمة بشؤون التقنيات الحديثة أخبارا تشير إلى أن سامسونغ تنوي تغيير سياساتها في تطوير الهواتف الذكية.",
+        "url": "https://arabic.rt.com/it/1217521-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%BA-%D8%AA%D8%B3%D8%B9%D9%89-%D9%84%D8%A5%D8%AD%D8%AF%D8%A7%D8%AB-%D9%86%D9%82%D9%84%D8%A9-%D9%86%D9%88%D8%B9%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%AA%D9%81/",
+        "urlToImage": "https://cdni.rt.com/media/pics/2021.04/original/6065d2064c59b770384fae9f.png",
+        "publishedAt": "2021-04-02T10:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "rt",
+          "name": "RT"
+        },
+        "author": "RT Arabic",
+        "title": "أمريكيون يهرعون لشراء المنازل بعد تغريدة لـ\"إيلون ماسك\" - RT Arabic",
+        "description": "سارع الأمريكيون إلى شراء منازل في تكساس بعد تغريدة لمؤسس شركتي تيسلا وسبيس إكس، إيلون ماسك، شجّع فيها على الاقتراب من مدينة \"ستاربيز\" التي يخطط لبنائها في المستقبل.",
+        "url": "https://arabic.rt.com/world/1217729-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D9%88%D9%86-%D9%8A%D9%87%D8%B1%D8%B9%D9%88%D9%86-%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B2%D9%84-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%BA%D8%B1%D9%8A%D8%AF%D8%A9-%D9%84%D9%80%D8%A5%D9%8A%D9%84%D9%88%D9%86-%D9%85%D8%A7%D8%B3%D9%83/",
+        "urlToImage": "https://cdni.rt.com/media/pics/2021.04/original/6066d8dc4c59b735cd5d7d7d.JPG",
+        "publishedAt": "2021-04-02T09:09:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Elbashayer.com"
+        },
+        "author": null,
+        "title": "بيع سيارة عمرو أديب المهشمة في مزاد علني بمبلغ ضخم: اشترينا البركه‎ - البشاير",
+        "description": "تداول عدد من رواد مواقع التواصل الاجتماعي ما قالوا إنه مزاد لبيع سيارة الإعلامي عمرو أديب، التي تهشمت في الحادث الذي تعرض له مؤخرا.",
+        "url": "https://elbashayer.com/2768344/%d8%a8%d9%80-600-%d8%a7%d9%84%d9%81-%d8%a8%d9%8a%d8%b9-%d8%b3%d9%8a%d8%a7%d8%b1%d8%a9-%d8%b9%d9%85%d8%b1%d9%88-%d8%a3%d8%af%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d9%87%d8%b4%d9%85%d8%a9-%d8%a8%d9%85%d8%b2/",
+        "urlToImage": "https://elbashayer-com.b-cdn.net/elbashayer/uploads/2021/04/elbashayer-2021-04-02_946307.png",
+        "publishedAt": "2021-04-02T07:09:46Z",
+        "content": ".\r\n “ ” .\r\n .\r\n   .\r\n 600 (38182.27 ) 17 / .\r\n         .\r\n : “   ”.\r\n “ ”    “ ”.\r\n: “ ”.\r\n    “” “ ”."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "News7sry.com"
+        },
+        "author": null,
+        "title": "عاجل: البرازيل توافق على استخدام لقاح \"جونسون آند جونسون\" لمكافحة كورونا - خبر حصري",
+        "description": "قامت السلطات الصحية في البرازيل بنشر بيان تعلن من خلاله عن موافقتها لاستخدام لقاح جونسون آند جونسون أحادي الجرعة المضاد لفيروس كورونا المستجد كوفيد 19 ويكون",
+        "url": "https://news7sry.com/24313/2021/04/02/عاجل-البرازيل-توافق-على-استخدام-لقاح-جونسون-آند-جونسون-لمكافحة-كورونا/",
+        "urlToImage": "https://news7sry.b-cdn.net/wp-content/uploads/2021/04/8-1.jpg",
+        "publishedAt": "2021-04-02T02:04:10Z",
+        "content": ""
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Fxnewstoday.ae"
+        },
+        "author": null,
+        "title": "تحديث: الذهب يلامس الهدف - FxNewsToday",
+        "description": "تحديث: الذهب يلامس الهدف",
+        "url": "https://www.fxnewstoday.ae/commodities/gold-analysis/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB:-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%8A%D9%84%D8%A7%D9%85%D8%B3-%D8%A7%D9%84%D9%87%D8%AF%D9%81-191254",
+        "urlToImage": "https://dixdeynibyck7.cloudfront.net/images/econ_ae.jpg",
+        "publishedAt": "2021-04-01T16:25:53Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Investing.com"
+        },
+        "author": "Investing.com",
+        "title": "عاجل: عملة مشفرة تتفوق على بتكوين وإيثريوم، عند مستوى تاريخي جديد بواسطة Investing.com - السعودية Investing.com",
+        "description": "عاجل: عملة مشفرة تتفوق على بتكوين وإيثريوم، عند مستوى تاريخي جديد",
+        "url": "https://sa.investing.com/news/cryptocurrency-news/article-2134247",
+        "urlToImage": "https://i-invdn-com.akamaized.net/news/Cryptocurrencies_800x533_L_1556444923.jpg",
+        "publishedAt": "2021-04-01T16:01:00Z",
+        "content": ":Fusion Media would like to remind you that the data contained in this website is not necessarily real-time nor accurate. All CFDs (stocks, indexes, futures) and Forex prices are not provided by exch… [+689 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Alarabiya.net"
+        },
+        "author": "العربية",
+        "title": "\"أوبك+\" يقرر زيادة إنتاج النفط تدريجياً بدءاً من مايو - العربية",
+        "description": "أعلن تحالف \"أوبك بلس\" للدول المنتجة للنفط أنه اتفق على زيادة إنتاج الخام اعتباراً من مايو، وذلك بعد اجتماع وزاري عقد عبر الإنترنت الخميس.وجاء في بيان التحا",
+        "url": "https://www.alarabiya.net/aswaq/oil-and-gas/2021/04/01/أوبك-بلس-رويترز-أوبك-تتفق-على-زيادة-تدريجية-لانتاج-النفط-من-مايو",
+        "urlToImage": "https://vid.alarabiya.net/images/2021/01/05/8703a2c4-0917-47df-8ed9-a665fb729a5a/8703a2c4-0917-47df-8ed9-a665fb729a5a_16x9_600x338.jpg",
+        "publishedAt": "2021-04-01T15:15:00Z",
+        "content": ""
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Masrawy.com"
+        },
+        "author": "مصراوي",
+        "title": "بعد شهرين من طرحها.. وكيل هيونداي يعلن زيادة أسعار توسان 2021 (أسعار ومواصفات) - Masrawy-مصراوي",
+        "description": "بعد شهرين من طرحها وكيل هيونداي يعلن زيادة أسعار توسان 2021 أسعار ومواصفات | مصراوى",
+        "url": "https://www.masrawy.com/autos/autos_news/details/2021/4/1/1997678/بعد-شهرين-من-طرحها-وكيل-هيونداي-يعلن-زيادة-أسعار-توسان-2021-أسعار-ومواصفات-",
+        "urlToImage": "https://media.gemini.media/img/large/2021/4/1/2021_4_1_15_43_25_548.jpg",
+        "publishedAt": "2021-04-01T13:43:00Z",
+        "content": "- :\r\n \"\" 2021 SUV 5 .\r\n 5 440,000 435,000 470,000 465,000 505,000 500,000 .\r\n 555,000 550,000 595,000 595,000 .\r\n 2021 1.6 180 DCT 7 .\r\n 4.500 1.865 1.659 \"\" 17 18 19 .\r\n LED 64 .\r\n Boss 7 10.25 .\r\n … [+66 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Mubasher.info"
+        },
+        "author": null,
+        "title": "مساهمو سيدي كرير للبتروكيماويات يقرون زيادة رأس المال عبر أسهم مجانية - مُباشِر",
+        "description": "القاهرة - مباشر: صدقت الجمعية العامة العادية لشركة سيدي كرير للبتروكيماويات، على تقرير مجلس الإدارة عن نشاط الشركة والقوائم المالية للعام الماضي. وقالت الشركة في بيان لبورصة مصر، اليوم الخميس، إن العمومية فوّضت مجلس الإدارة في اتخاذ كافة القرارات …",
+        "url": "https://www.mubasher.info/news/3786608/مساهمو-سيدي-كرير-للبتروكيماويات-يقرون-زيادة-رأس-المال-عبر-أسهم-مجانية/",
+        "urlToImage": "https://static.mubasher.info/File.Story_Image/fcf6122ecd8aa265614fcbdf3fa45564/640.jpg",
+        "publishedAt": "2021-04-01T12:51:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "rt",
+          "name": "RT"
+        },
+        "author": "RT Arabic",
+        "title": "عملة رقمية تصعد بشكل صاروخي بعد تغريدة لماسك - RT Arabic",
+        "description": "ارتفعت العملة الرقمية Dogecoin بشكل صاروخي اليوم الخميس، بعد تغريدة لرجل الأعمال الأمريكي الشهير إيلون ماسك تحدث من خلالها عن العملة الرقمية.",
+        "url": "https://arabic.rt.com/business/1217470-%D8%A5%D9%8A%D9%84%D9%88%D9%86-%D9%85%D8%A7%D8%B3%D9%83-%D8%B9%D9%85%D9%84%D8%A7%D8%AA-%D8%B1%D9%82%D9%85%D9%8A%D8%A9/",
+        "urlToImage": "https://cdni.rt.com/media/pics/2021.04/original/6065a7e94236043d4f6d8880.JPG",
+        "publishedAt": "2021-04-01T11:12:00Z",
+        "content": ":01.04.2021 | 11:12 GMT | \r\n :01.04.2021 | 11:45 GMT |"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Elmostaqbal.com"
+        },
+        "author": null,
+        "title": "ارتفاع جديد تشهده أسعار الذهب في السعودية اليوم.. اعرف التفاصيل - المستقبل",
+        "description": "بعد موجة من الانخفاضات والتراجع، بعد فترة لا بأس بها، شهدت أسعار الذهب في السعودية اليوم الخميس 1-4-2021، ارتفاع جديد في مستهل التعاملات، ونرصد أسعار",
+        "url": "https://www.elmostaqbal.com/508054/2021/04/01/ارتفاع-جديد-تشهده-أسعار-الذهب-في-السعو/",
+        "urlToImage": "https://cdn.elmostaqbal.com/elmostaqbal/uploads/2020/03/www.elmostaqbal.com_2020-03-31_08-24-51_827497.png",
+        "publishedAt": "2021-04-01T08:34:48Z",
+        "content": "1-4-2021 :\r\n 24 = 205.81 (54.88 ).\r\n 21 = 180.08 (48.02 ). \r\n 18 = 154.35 (41.16 ).\r\n 14= 120.05 (32.01 ).\r\n = 6405 (708 ).\r\n 1440.64 ."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Youm7.com"
+        },
+        "author": null,
+        "title": "تعرف على أسعار العملات اليوم الخميس 1-4-2021 - اليوم السابع",
+        "description": "شهدت أسعار العملات اليوم الخميس 1-4-2021، تباينا ملحوظا أمام الجنيه المصرى، وهى الدولار واليورو والجنيه الاسترلينى والريال السعودى والدينار الكويتى.",
+        "url": "https://www.youm7.com/story/2021/4/1/تعرف-على-أسعار-العملات-اليوم-الخميس-1-4-2021/5265245",
+        "urlToImage": "https://img.youm7.com/large/201702221046104610.jpg",
+        "publishedAt": "2021-04-01T08:30:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Skynewsarabia.com"
+        },
+        "author": "سكاي نيوز عربية",
+        "title": "\"أردنا لفت الانتباه\".. فولكسفاغن تعتذر بعد \"المزحة المزعجة\" - Sky News Arabia سكاي نيوز عربية",
+        "description": "قدمت \"فولكسفاغن\" اعتذارها، بعد أن نشرت الشركة خبرا كاذبا عن عمد، يؤكد أن وحدتها الأميركية ستغير اسم عملياتها في الولايات المتحدة إلى \"فولتسفاغن أميركا\".",
+        "url": "https://www.skynewsarabia.com/varieties/1426328-%D8%A7%D9%94%D8%B1%D8%AF%D9%86%D8%A7-%D9%84%D9%81%D8%AA-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%A8%D8%A7%D9%87-%D9%81%D9%88%D9%84%D9%83%D8%B3%D9%81%D8%A7%D8%BA%D9%86-%D8%AA%D8%B9%D8%AA%D8%B0%D8%B1-%D8%A7%D9%84%D9%85%D8%B2%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B2%D8%B9%D8%AC%D8%A9",
+        "urlToImage": "https://www.skynewsarabia.com/images/v1/2021/04/01/1426327/1200/630/1-1426327.jpg",
+        "publishedAt": "2021-04-01T02:24:45Z",
+        "content": null
+      }
+    ]
+  }
