@@ -5,7 +5,6 @@ import 'package:news_app/modules/search/search_screen.dart';
 import 'package:news_app/shared/components/components.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
-import 'package:news_app/shared/network/remote/dio_helper.dart';
 
 class News_Screen extends StatelessWidget {
   @override
@@ -17,7 +16,7 @@ class News_Screen extends StatelessWidget {
         return Scaffold(
           appBar: AppBar(
             title:Text(
-              'News App',
+              'Today News',
             ),
             actions: [
             IconButton(

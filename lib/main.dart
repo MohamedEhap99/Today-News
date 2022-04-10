@@ -5,12 +5,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:news_app/bloc_observer.dart';
 import 'package:news_app/cubit/cubit.dart';
+import 'package:news_app/modules/splash_screen/splash_screen.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
-import 'package:news_app/shared/cubit/states.dart';
 import 'package:news_app/shared/network/local/cache_helper.dart';
 import 'package:news_app/shared/network/remote/dio_helper.dart';
 import 'cubit/states.dart';
-import 'layout/news_app/news_layout.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -115,8 +115,9 @@ class MyApp extends StatelessWidget {
                   color: Colors.deepOrange,
                 ),
                 unselectedIconTheme: IconThemeData(
-                  color: Colors.grey,
+                  color: Colors.white,
                 ),
+                unselectedItemColor:Colors.white,
                 elevation: 20.0,
                 type: BottomNavigationBarType.fixed,
                 backgroundColor: HexColor('333739'),
@@ -136,7 +137,7 @@ class MyApp extends StatelessWidget {
             themeMode:
                 AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             // themeMode:ThemeMode.light,
-            home: News_Screen(),
+            home:SplashScreen(),
           );
         },
       ),
