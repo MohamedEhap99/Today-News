@@ -7,7 +7,11 @@ Flutter News App to view all new and exclusive news from all Egyptian news sites
 
 ## Light Mood
 
-![Uploading Apple iPhone 11 Pro Max Presentation.png…]()
+![Apple iPhone 11 Pro Max Presentation](https://user-images.githubusercontent.com/92197988/162640579-3744a3de-9420-44be-b40d-56af1bc66b0d.png)
+
+## Dark Mood
+
+![Apple iPhone 11 Pro Max Presentation (1)](https://user-images.githubusercontent.com/92197988/162640734-9ed787d6-67b1-4ebd-8c5c-5436c357b514.png)
 
 This project is a starting point for a Flutter application.
 
