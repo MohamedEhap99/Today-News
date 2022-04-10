@@ -8,7 +8,7 @@ class SplashScreen extends StatelessWidget{
   Widget build(BuildContext context) {
 return SplashScreenView(
   navigateRoute: News_Screen(),
-  duration: 2000,
+  duration: 2000,//millisecond
   imageSize: 130,
   imageSrc: "assets/images/logo2.jpeg",
   backgroundColor: Colors.white,
