@@ -1,10 +1,12 @@
-# news_app
+# News App
 
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+Flutter News App to view all new and exclusive news from all Egyptian news sites and search for any Egyptian or international news builds using Free API and Dio helper, Bloc State Management and Shared preferences package.
 
 A few resources to get you started if this is your first Flutter project:
 
