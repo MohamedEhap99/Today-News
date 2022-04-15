@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -10,10 +9,14 @@ import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/network/local/cache_helper.dart';
 import 'package:news_app/shared/network/remote/dio_helper.dart';
 import 'cubit/states.dart';
-
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+   SystemChrome.setPreferredOrientations(
+       [
+         DeviceOrientation.portraitUp,
+         DeviceOrientation.portraitDown,
+       ]
+   );
   DioHelper.init();
   await CacheHelper.init();
   bool? isDark = CacheHelper.getBoolean(key: 'isDark');
@@ -23,14 +26,12 @@ void main() async {
     },
     blocObserver: MyBlocObserver(),
   );
-  runApp(MyApp(isDark));
+  runApp(MyApp(isDark: isDark));
 }
 
 class MyApp extends StatelessWidget {
-  final bool? isdark;
-
-  MyApp(this.isdark);
-
+  final bool? isDark;
+  const MyApp({Key? key, this.isDark}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
           create: (context) => NewsCubit()..getBusiness(),
         ),
         BlocProvider(
-          create: (context) => AppCubit()..ChangeAppMode(fromShared: isdark),
+          create: (context) => AppCubit()..ChangeAppMode(fromShared: isDark),
         ),
       ],
       child: BlocConsumer<AppCubit, AppStates>(
@@ -49,9 +50,8 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
               scaffoldBackgroundColor: Colors.white,
-              appBarTheme: AppBarTheme(
+              appBarTheme: const AppBarTheme(
                 titleSpacing: 20.0,
-                backwardsCompatibility: false,
                 systemOverlayStyle: SystemUiOverlayStyle(
                   statusBarColor: Colors.white,
                   statusBarIconBrightness: Brightness.dark,
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
                 backgroundColor: Colors.white,
                 elevation: 0.0,
               ),
-              bottomNavigationBarTheme: BottomNavigationBarThemeData(
+              bottomNavigationBarTheme:const BottomNavigationBarThemeData(
                 selectedIconTheme: IconThemeData(
                   color: Colors.deepOrange,
                 ),
@@ -78,10 +78,10 @@ class MyApp extends StatelessWidget {
                 type: BottomNavigationBarType.fixed,
                 backgroundColor: Colors.white,
               ),
-              floatingActionButtonTheme: FloatingActionButtonThemeData(
+              floatingActionButtonTheme:const FloatingActionButtonThemeData(
                 backgroundColor: Colors.deepOrange,
               ),
-              textTheme: TextTheme(
+              textTheme:const TextTheme(
                 bodyText1: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.w600,
@@ -94,27 +94,26 @@ class MyApp extends StatelessWidget {
               scaffoldBackgroundColor: HexColor('333739'),
               appBarTheme: AppBarTheme(
                 titleSpacing: 20.0,
-                backwardsCompatibility: false,
                 systemOverlayStyle: SystemUiOverlayStyle(
                   statusBarColor: HexColor('333739'),
                   statusBarIconBrightness: Brightness.light,
                 ),
-                titleTextStyle: TextStyle(
+                titleTextStyle:const TextStyle(
                   color: Colors.white,
                   fontSize: 30.0,
                   fontWeight: FontWeight.bold,
                 ),
-                iconTheme: IconThemeData(
+                iconTheme:const IconThemeData(
                   color: Colors.white,
                 ),
                 backgroundColor: HexColor('333739'),
                 elevation: 0.0,
               ),
               bottomNavigationBarTheme: BottomNavigationBarThemeData(
-                selectedIconTheme: IconThemeData(
+                selectedIconTheme:const IconThemeData(
                   color: Colors.deepOrange,
                 ),
-                unselectedIconTheme: IconThemeData(
+                unselectedIconTheme:const IconThemeData(
                   color: Colors.white,
                 ),
                 unselectedItemColor:Colors.white,
@@ -122,10 +121,10 @@ class MyApp extends StatelessWidget {
                 type: BottomNavigationBarType.fixed,
                 backgroundColor: HexColor('333739'),
               ),
-              floatingActionButtonTheme: FloatingActionButtonThemeData(
+              floatingActionButtonTheme:const FloatingActionButtonThemeData(
                 backgroundColor: Colors.deepOrange,
               ),
-              textTheme: TextTheme(
+              textTheme:const TextTheme(
                 bodyText1: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.w600,
@@ -137,7 +136,7 @@ class MyApp extends StatelessWidget {
             themeMode:
                 AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             // themeMode:ThemeMode.light,
-            home:SplashScreen(),
+            home:const SplashScreen(),
           );
         },
       ),

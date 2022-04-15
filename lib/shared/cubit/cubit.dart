@@ -9,34 +9,37 @@ import 'package:news_app/shared/network/remote/dio_helper.dart';
 class NewsCubit extends Cubit<NewsStates>{
   NewsCubit(): super(AppInitialState());
   static NewsCubit get(context)=>BlocProvider.of(context);
-  List<Widget>Screens=[
-    Business_Screen(),
-    Sports_Screen(),
-    Science_Screen(),
+  List<Widget>screens=[
+   const BusinessScreen(),
+    const  SportsScreen(),
+    const  ScienceScreen(),
   ];
   List<BottomNavigationBarItem>bottomItem=
   [
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
       icon:Icon(Icons.business),
       label:'Business',
     ),
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
       icon:Icon(Icons.sports),
       label:'Sports',
     ),
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
       icon:Icon(Icons.science),
       label:'Science',
     ),
   ];
   int currentIndex=0;
 
-  void ChangeBottomNavBar(int index){
+  void changeBottomNavBar(int index){
     currentIndex=index;
-    if(index==1)
+    if(index==1){
       getSports();
-    if(index==2)
+    }
+
+    if(index==2){
       getScience();
+    }
     emit(ChangeBottomNavBarState());
   }
 //65f7f556ec76449fa7dc7c0069f040ca
@@ -64,7 +67,7 @@ class NewsCubit extends Cubit<NewsStates>{
   List<dynamic> sports=[];
   void getSports(){
     emit(NewsSportsLoadingState());
-    if(sports.length==0){
+    if(sports.isEmpty){
       DioHelper.getData(
         url:'v2/top-headlines',
         query:{
@@ -91,7 +94,7 @@ class NewsCubit extends Cubit<NewsStates>{
   List<dynamic> science=[];
   void getScience(){
     emit(NewsScienceLoadingState());
-    if(science.length==0){
+    if(science.isEmpty){
       DioHelper.getData(
         url:'v2/top-headlines',
         query:{
@@ -122,7 +125,7 @@ class NewsCubit extends Cubit<NewsStates>{
     DioHelper.getData(
       url:'v2/everything',
       query:{
-        'q':'$value',
+        'q':value,
         'apiKey':'731f6c2e7ad64e68979f1d4f332c6a4f',
       },
     ).then((value){

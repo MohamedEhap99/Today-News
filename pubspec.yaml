@@ -42,6 +42,7 @@ dependencies:
   shared_preferences: ^2.0.9
   webview_flutter: ^2.3.1
   splash_screen_view: ^3.0.0
+  rename: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -50,7 +51,7 @@ dev_dependencies:
   flutter_lints: ^1.0.0
 
 flutter_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   image_path: "assets/images/logo.jpeg"
 

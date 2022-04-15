@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Settings_Screen extends StatelessWidget {
+class SettingsScreen extends StatelessWidget {
+  const SettingsScreen({Key?key}):super(key:key);
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Text(
         'Settings',
         style:TextStyle(

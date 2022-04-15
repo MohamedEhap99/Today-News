@@ -4,8 +4,9 @@ import 'package:news_app/shared/components/components.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
 
-class Search_Screen extends StatelessWidget{
-  var searchController=TextEditingController();
+class SearchScreen extends StatelessWidget{
+ final TextEditingController searchController=TextEditingController();
+  SearchScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
 
@@ -19,7 +20,7 @@ class Search_Screen extends StatelessWidget{
          children: [
            Padding(
              padding: const EdgeInsets.all(20.0),
-             child: DefualtFormField(
+             child: defualtFormField(
                  prefixicon:Icons.search,
                  labeltext:'Search',
                  keboardtype:TextInputType.text,
@@ -29,7 +30,7 @@ class Search_Screen extends StatelessWidget{
                    }
                    return null;
                  },
-                 onchanged: (value) {
+                 onChanged: (value) {
 NewsCubit.get(context).getSearch(value);
                  }
              ),

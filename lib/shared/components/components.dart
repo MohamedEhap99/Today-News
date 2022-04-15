@@ -25,25 +25,21 @@ Widget buildArticleItem(article,context)=>InkWell(
             borderRadius:BorderRadius.circular(10.0),
   
             image:DecorationImage(
-  
-              image:NetworkImage('${article['urlToImage']}'),
-  
               fit: BoxFit.cover,
-  
+              image:article['urlToImage']!=null?NetworkImage('${article['urlToImage']}')as ImageProvider:
+              const AssetImage('assets/images/No_Image.jpg'),
             ),
   
           ),
   
         ),
   
-        SizedBox(width: 20.0,),
+        const SizedBox(width: 20.0,),
   
         Expanded(
   
-          child: Container(
-  
+          child: SizedBox(
             height: 120,
-  
             child: Column(
   
               mainAxisAlignment: MainAxisAlignment.start,
@@ -76,7 +72,7 @@ Widget buildArticleItem(article,context)=>InkWell(
   
                   '${article['publishedAt']}',
   
-                  style: TextStyle(
+                  style:const TextStyle(
   
                     color: Colors.grey,
   
@@ -102,25 +98,25 @@ Widget buildArticleItem(article,context)=>InkWell(
 Widget articleBuilder(list,context, {isSearch = false})=>ConditionalBuilder(
   condition:list.length>0,
   builder: (context)=>ListView.separated(
-    physics:BouncingScrollPhysics(),
+    physics:const BouncingScrollPhysics(),
     itemBuilder:(BuildContext context, int index)=>buildArticleItem(list[index],context) ,
     separatorBuilder:(context,index)=> Container(
       width:10.0 ,
       height:10.0 ,
       color: Colors.grey,
     ),
-    itemCount:10,
+    itemCount:list.length,
   ),
-  fallback:(context)=>isSearch?Container():Center(child: CircularProgressIndicator()),
+  fallback:(context)=>isSearch?Container():const Center(child: CircularProgressIndicator()),
 );
 
-Widget DefualtFormField({
+Widget defualtFormField({
   IconData?prefixicon,
   String?labeltext,
   TextInputType?keboardtype,
   FormFieldValidator<String>?validate,
-  TextEditingController?Controller,
-  ValueChanged<String>?onchanged,
+  TextEditingController?controller,
+  ValueChanged<String>?onChanged,
 })=>TextFormField(
   decoration:InputDecoration(
     prefixIcon:Icon(prefixicon),
@@ -128,11 +124,11 @@ Widget DefualtFormField({
   ),
   keyboardType:keboardtype,
   validator:validate,
-  controller:Controller,
-  onChanged:onchanged ,
+  controller:controller,
+  onChanged:onChanged ,
 );
 
-void navigateTo(context,Widget)=>Navigator.push(context,MaterialPageRoute(
-    builder:(context)=>Widget,
+void navigateTo(context,widget)=>Navigator.push(context,MaterialPageRoute(
+    builder:(context)=>widget,
 ),
 );
