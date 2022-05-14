@@ -3,7 +3,9 @@
 A new Flutter project.
 
 ## Getting Started
-Flutter News App to view all new and exclusive news from all Egyptian news sites and search for any Egyptian or international news builds using Free API and Dio helper, Bloc State Management and Shared preferences package , splash screen , switch theme between Light mood and Dark mood.
+Flutter News App to view all new and exclusive news from all Egyptian news sites and search for any Egyptian or international news builds using Free API and Dio helper, Bloc State Management and Shared preferences package , splash screen , Localization , switch theme between Light mood and Dark mood.
+
+google play link: https://play.google.com/store/apps/details?id=at.mehap.todaynews
 
 ## Light Mood
 
